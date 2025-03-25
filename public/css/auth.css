@@ -1,0 +1,59 @@
+/* Background gradient */
+/* Background dengan gambar */
+body {
+    background: url("../img/bgipm.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Auth container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Card styling */
+.auth-card {
+    width: 400px;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Input fields */
+.auth-card input {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Submit button */
+.auth-card .btn-primary {
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #667eea;
+    border: none;
+    transition: 0.3s;
+}
+
+.auth-card .btn-primary:hover {
+    background-color: #5a67d8;
+}
+
+/* Links */
+.auth-card a {
+    display: block;
+    margin-top: 10px;
+    color: #667eea;
+}
+
+.auth-card a:hover {
+    text-decoration: underline;
+}
