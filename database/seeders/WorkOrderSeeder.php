@@ -12,7 +12,7 @@ class WorkOrderSeeder extends Seeder
     {
         $workOrders = [
             [
-                'nomor_wo' => '02/25/ENG-001',
+                'nomor_wo' => '02-25-ENG-001',
                 'nama_pemohon' => 'John Doe',
                 'departemen' => 'Engineering',
                 'departemen_lainnya' => null,
@@ -26,7 +26,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '02/25/CPP-002',
+                'nomor_wo' => '02-25-CPP-002',
                 'nama_pemohon' => 'Alice Smith',
                 'departemen' => 'CPP',
                 'departemen_lainnya' => null,
@@ -40,7 +40,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '03/25/OTH-001',
+                'nomor_wo' => '03-25-OTH-001',
                 'nama_pemohon' => 'Michael Scott',
                 'departemen' => 'lainnyas',
                 'departemen_lainnya' => 'Research & Development',
@@ -54,7 +54,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '03/25/SLI-002',
+                'nomor_wo' => '03-25-SLI-002',
                 'nama_pemohon' => 'Charlie Brown',
                 'departemen' => 'Slitting',
                 'departemen_lainnya' => null,
@@ -68,7 +68,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '04/25/LAB-001',
+                'nomor_wo' => '04-25-LAB-001',
                 'nama_pemohon' => 'David Wilson',
                 'departemen' => 'Laboratorium',
                 'departemen_lainnya' => null,
@@ -82,7 +82,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '05/25/ENG-003',
+                'nomor_wo' => '05-25-ENG-003',
                 'nama_pemohon' => 'Eve Adams',
                 'departemen' => 'Engineering',
                 'departemen_lainnya' => null,
@@ -96,7 +96,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '05/25/HR-004',
+                'nomor_wo' => '05-25-HR-004',
                 'nama_pemohon' => 'Frank Miller',
                 'departemen' => 'HR',
                 'departemen_lainnya' => null,
@@ -110,7 +110,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '06/25/IT-005',
+                'nomor_wo' => '06-25-IT-005',
                 'nama_pemohon' => 'Grace Lee',
                 'departemen' => 'IT',
                 'departemen_lainnya' => null,
@@ -124,7 +124,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '06/25/FIN-006',
+                'nomor_wo' => '06-25-FIN-006',
                 'nama_pemohon' => 'Hank Green',
                 'departemen' => 'Finance',
                 'departemen_lainnya' => null,
@@ -138,7 +138,7 @@ class WorkOrderSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'nomor_wo' => '07/25/MKT-007',
+                'nomor_wo' => '07-25-MKT-007',
                 'nama_pemohon' => 'Ivy Brown',
                 'departemen' => 'Marketing',
                 'departemen_lainnya' => null,
